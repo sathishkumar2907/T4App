@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+     <div class="container">
+         <div class="main">
+             <form class="form" method="post" action="saveMentor" name="mentor">
+                <h2>ADD Mentor</h2>
+                <input type="hidden" id = "mentor_id"/>
+                <label>Mentor Name :</label><br></br>
+                <input type="text" name="mentorname" id="mentorname"><br></br>
+                <label>Primary Skillset :</label><br></br>
+                <input type="text" name="primarySkillset" id="primarySkillset"><br></br>
+                <label>Secondary Skillset :</label><br></br>
+                <input type="text" name="secondarySkillset" id="secondarySkillset"><br></br>
+                <label>Years Of Experience :</label><br></br>
+                <input type="text" name="yearsOfExperience" id="yearsOfExperience"><br></br>
+                <button type="submit" name="save" id="save" value="save">SAVE</button>
+                <div class="alert alert-success" id="info"></div>
+             </form>
+         </div>
+     </div>
+
+</body>
+</html>

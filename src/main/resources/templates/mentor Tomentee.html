@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+      <div class="container">
+         <div class="main">
+            <h2>New Mentor 2Mentees</h2>
+            
+              <form action="updateMenteeWithId" method="POST" name="mentorTomentee">
+            <div id="mentorlist" style="padding:20px 10px 20px 50px">
+               <ul class="list-group"></ul>
+               
+               <select id="mentorList" name="mentorList" class="list-group">
+                  <option value="">Select Mentor</option>
+               </select>
+               </div>
+               <br></br>
+               
+               <div id="menteelist" style="padding:20px 10px 20px 50px">
+                   <ul class="list-group"></ul>
+                   
+                   <select id="menteelist" name="menteelist" class="list-group">
+                   <option value="">Select Mentee</option>
+                   </select>
+                   </div>
+                      <button type="submit" class="btn btn-primary" name="save" id="save" value="save" style="width:50%;position: absolute;left:108px;top: 297px;">SAVE</button>
+                      <div class=alert alert-success" id="info"></div>
+              </form>
+              
+         </div>
+      </div>
+
+</body>
+</html>

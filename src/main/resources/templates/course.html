@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <div class= "container">
+    <div class="row">
+    <nav class="main">
+         <form class="from" method="POST" action="saveCourse1" name="course">
+         <h2>ADD Course</h2>
+          <input type="text" id="course_id" hidden></input>  
+          <label>Course Name:</label><br></br>
+          <input type="text" name="full name" id="full name"/><span id="full name-error" class="hidden btn-danger"></span><br></br>
+          <label>Subject :</label><br></br>
+          <input type="text" name="subject" id="subject"/><span id="subject-error" class="hidden btn-danger"></span><br></br>
+          <label>Training Duration :</label><br></br>
+          <input type="text" name="trainingDuration" id="trainingDuration"/><span id="trainingDuration-error" class="hidden btn-danger"></span><br></br>
+          <button type="submit" name="save" value="save">SAVE</button>
+           <div class="alert alert-success" id="info"></div>
+           </form>
+          </nav>
+    </div>
+    </div>
+
+</body>
+</html>
